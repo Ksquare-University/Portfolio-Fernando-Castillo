@@ -29,7 +29,10 @@ body {
   .img-zoom:hover {
     transform: scale(1.3);
   }
-  
+
+  p {
+    font-size: 1.3rem;
+  }
 
   /*Header*/
   #header {  
@@ -53,7 +56,7 @@ body {
   }
 
   #header .profile h1, #header .profile h1:hover {
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
     padding: 0;
     font-weight: 600;
@@ -64,7 +67,7 @@ body {
   }
 
   #header .profile .social-links a {
-    font-size: 18px;
+    font-size: 22px;
     display: inline-block;
     background: #212431;
     color: #fff;
@@ -73,8 +76,8 @@ body {
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
-    width: 36px;
-    height: 36px;   
+    width: 38px;
+    height: 38px;   
     transition: 1s;
   }
 
@@ -115,11 +118,11 @@ body {
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .nav-menu a i {
-    font-size: 24px;
+    font-size: 25px;
     padding-right: 8px;
     color: #6f7180;
   }
@@ -140,7 +143,7 @@ body {
     z-index: 9998;
     border: 0;
     background: none;
-    font-size: 24px;
+    font-size: 25px;
     transition: all 0.4s;
     outline: none !important;
     line-height: 1;
@@ -180,7 +183,7 @@ body {
   }
   
   .section-title h2 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -206,7 +209,7 @@ body {
   /*About*/
   .about .content h3 {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     color: #173b6c;
   }
   
@@ -217,6 +220,7 @@ body {
   
   .about .content ul li {
     padding-bottom: 10px;
+    font-size: 20px;
   }
   
   .about .content ul i {
@@ -232,6 +236,7 @@ body {
   .about-img {
     border: 6px solid #173b6c;
     border-radius: 70px;
+    width: 350px;
   }
 
   .picture-desc {
@@ -240,7 +245,7 @@ body {
 
   /*Work & Education*/
   .resume .resume-title {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -256,7 +261,7 @@ body {
   
   .resume .resume-item h4 {
     line-height: 18px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -265,12 +270,16 @@ body {
   }
   
   .resume .resume-item h5 {
-    font-size: 16px;
+    font-size: 20px;
     background: #e4edf9;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+  }
+
+  .resume .resume-item h6 {
+    font-size: 20px;    
   }
   
   .resume .resume-item ul {
@@ -279,6 +288,7 @@ body {
   
   .resume .resume-item ul li {
     padding-bottom: 10px;
+    font-size: 20px;
   }
   
   .resume .resume-item:last-child {
@@ -300,6 +310,14 @@ body {
   .resume .resume-item .img-resume{
       max-width: 200px;     
       padding-bottom: 30px;
+  }
+
+  .resume .resume-img-zoom {
+    transition: transform 1.5s;
+  }
+
+  .resume .resume-img-zoom:hover {
+    transform: scale(1.15);
   }
 
   /*Programming*/
@@ -326,6 +344,13 @@ body {
     height: 200px;
     background-color: #149ddd;
     border: 1px solid #149ddd;
+    transform: 2s;
+  }
+
+  .project .center-content .project-button:hover{
+    background-color: #b8e1f4;
+    border: 1px solid #b8e1f4;
+    color: gray;
   }
 
   .project .button-zoom {
@@ -356,7 +381,7 @@ body {
   
   .languages .icon i {
     color: #fff;
-    font-size: 24px;
+    font-size: 28px;
   }
   
   .languages .icon-box:hover .icon {
@@ -371,7 +396,7 @@ body {
     margin-left: 80px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .languages .skills{
@@ -389,7 +414,7 @@ body {
   .languages .description {
     margin-left: 80px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   @media (max-width: 1199px) {
@@ -408,7 +433,7 @@ body {
 
   .resume .achievement-item h4 {
     line-height: 18px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -417,7 +442,7 @@ body {
   }
   
   .resume .achievement-item h5 {
-    font-size: 16px;
+    font-size: 20px;
     background: #e4edf9;
     padding: 5px 15px;
     display: inline-block;
@@ -452,4 +477,8 @@ body {
   .resume .achievement-item .img-achievement{
       max-width: 200px;     
       padding-bottom: 30px;
+  }
+
+  .resume .achievement-item h6 {
+    font-size: 20px;    
   }

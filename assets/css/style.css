@@ -343,14 +343,12 @@ body {
     width: 200px;
     height: 200px;
     background-color: #149ddd;
-    border: 1px solid #149ddd;
-    transform: 2s;
+    border: 1px solid #149ddd;    
   }
 
   .project .center-content .project-button:hover{
-    background-color: #b8e1f4;
-    border: 1px solid #b8e1f4;
-    color: gray;
+    background-color: #040b14;
+    border: 1px solid #040b14;    
   }
 
   .project .button-zoom {

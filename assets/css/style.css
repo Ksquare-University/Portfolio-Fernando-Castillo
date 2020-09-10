@@ -34,6 +34,24 @@ body {
     font-size: 1.3rem;
   }
 
+  .mobile-click {
+    visibility: hidden;
+  }
+
+  .mobile-hide {
+    visibility: visible;
+  }
+
+  @media (max-width: 1199px) {
+    .mobile-click {
+      visibility: visible;
+    }
+    .mobile-hide {
+      visibility: hidden;
+    }
+  }  
+
+
   /*Header*/
   #header {  
     position: fixed;
@@ -165,6 +183,20 @@ body {
   
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
+  }
+
+  .circle-button {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    border: 1px solid #149ddd;
+    color: #fff;
+
   }
 
 
@@ -334,6 +366,16 @@ body {
     transform: scale(1.3);
   }
 
+  .programming .logo-learning-left{
+    padding-left: 3rem;
+  }
+
+  @media (max-width: 1199px) {
+    .programming .logo-learning-left{
+      padding-left: .5rem;
+    }
+  }
+
   /*Projects*/
   .project .center-content{
     text-align: center;
@@ -357,6 +399,16 @@ body {
 
   .project .button-zoom:hover {
     transform: scale(1.3);
+  }  
+
+  .project .mobile-box-project {
+    padding-top: 3rem;
+  }
+
+  @media (max-width: 1199px) {    
+    .project .mobile-box-project {
+      padding-top: 0px;
+    }
   }
 
   /*Languages*/

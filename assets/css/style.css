@@ -180,10 +180,6 @@ body {
   .mobile-nav-active #header {
     left: 0;
   }
-  
-  .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
-  }
 
   .circle-button {
     float: left;

@@ -303,6 +303,67 @@ section {
   padding-top: 2% !important;
 }
 
+/*Languages*/
+.about .icon-box {
+  margin-bottom: 20px;
+}
+
+.about .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.about .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.about .icon-box:hover .icon {
+  background: #fff;
+}
+
+.about .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.about .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.about .skills {
+  padding-top: 13px;
+}
+
+.about .title a {
+  color: #343a40;
+}
+
+.about .title a:hover {
+  color: #149ddd;
+}
+
+.about .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+  #learning {
+    margin-top: 60px;
+  }
+}
 /*Work & Education*/
 .resume .resume-title {
   font-size: 30px;
@@ -442,68 +503,6 @@ section {
   }
   .project p {
     font-size: 0.8rem;
-  }
-}
-
-/*Languages*/
-.languages .icon-box {
-  margin-bottom: 20px;
-}
-
-.languages .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-}
-
-.languages .icon i {
-  color: #fff;
-  font-size: 28px;
-}
-
-.languages .icon-box:hover .icon {
-  background: #fff;
-}
-
-.languages .icon-box:hover .icon i {
-  color: #149ddd;
-}
-
-.languages .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 22px;
-}
-
-.languages .skills {
-  padding-top: 13px;
-}
-
-.languages .title a {
-  color: #343a40;
-}
-
-.languages .title a:hover {
-  color: #149ddd;
-}
-
-.languages .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 18px;
-}
-
-@media (max-width: 1199px) {
-  #learning {
-    margin-top: 60px;
   }
 }
 

@@ -1,6 +1,6 @@
 # Portfolio Fernando Castillo
 GITHUB PAGE LINK:
-https://castcosme.github.io/
+https://ksquare-university.github.io/Portfolio-Fernando-Castillo/
 
 Hello! This is the first iteration of my personal portfolio!
 

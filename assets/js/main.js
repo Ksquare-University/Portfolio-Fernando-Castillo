@@ -34,3 +34,8 @@ $(window).on('scroll', function() {
     }
   });
 });
+
+//MOBILE TOOLTIP
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip()
+})

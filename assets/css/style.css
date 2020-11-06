@@ -29,6 +29,7 @@ h6 {
 
 .img-zoom {
   transition: transform 2s;
+  border-radius: 5px;
 }
 
 .img-zoom:hover {
@@ -90,7 +91,7 @@ p {
 }
 
 #header .profile h5,
-#header .profile h5:hover {  
+#header .profile h5:hover {
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -101,7 +102,7 @@ p {
 }
 
 #header .profile p,
-#header .profile p:hover {  
+#header .profile p:hover {
   font-size: 14px;
   margin: 6% 10% 0;
   padding: 0;
@@ -404,11 +405,10 @@ section {
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
+  margin-bottom: 0;
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
   font-size: 20px;
 }
 
@@ -558,9 +558,29 @@ section {
 
 .resume .achievement-item .img-achievement {
   max-width: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 30px;  
 }
 
 .resume .achievement-item h6 {
   font-size: 20px;
+}
+
+.resume .role {
+  width: fit-content;
+}
+
+.resume .role .card {
+  border: none;
+}
+
+.resume .role .card-header {
+  margin-bottom: 0;
+  border-bottom: none;
+  background-color: white;
+  padding: 0;
+}
+
+.resume .role .card .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 0;
 }
